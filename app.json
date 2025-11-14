@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "face_detection",
-    "slug": "face_detection",
+    "name": "Face Detection",
+    "slug": "face-detection",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +18,7 @@
         "NSCameraUsageDescription": "$(PRODUCT_NAME) needs access to your Camera.",
         "NSMicrophoneUsageDescription": "$(PRODUCT_NAME) needs access to your Microphone."
       },
-      "bundleIdentifier": "com.anonymous.ml-kit-poc"
+      "bundleIdentifier": "com.simonassi.face-detection"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,7 +27,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.ml_kit_poc",
+      "package": "com.simonassi.face-detection",
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO"
